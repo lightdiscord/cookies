@@ -10,13 +10,17 @@ export const setup = () => {
                     '/ip4/0.0.0.0/tcp/9090/ws/p2p-websocket-star'
                 ]
             }
-        }
+        },
     });
 
     node.on('error', console.error)
 
-    node.on('ready', () => {
+    node.once('start', () => console.log('Node started!'))
+
+    node.once('ready', () => {
+        console.log('ready')
         node.id((err, res) => {
+            console.log('id')
             if (err) {
                 throw err
             }

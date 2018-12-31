@@ -3,18 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@nodeutils/defaults-deep": "^1.1.0",
     "ipfs": "^0.33.1",
-    "libp2p": "^0.24.3",
-    "libp2p-bootstrap": "^0.9.4",
-    "libp2p-kad-dht": "^0.14.1",
-    "libp2p-mdns": "^0.12.1",
-    "libp2p-mplex": "^0.8.4",
-    "libp2p-secio": "^0.10.1",
-    "libp2p-spdy": "^0.13.1",
-    "libp2p-tcp": "^0.13.0",
-    "libp2p-websocket-star": "^0.10.0",
-    "peer-info": "^0.15.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
@@ -24,8 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
