@@ -6,6 +6,8 @@ import { store } from './kernel/store';
 import { unregister as unregisterSW } from './kernel/service-worker';
 import { App } from './components';
 
+import './kernel/ipfs'
+
 unregisterSW();
 
 const element = (
